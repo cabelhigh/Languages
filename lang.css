@@ -1,0 +1,92 @@
+body {
+  background-color: #c7d2e2;
+}
+
+.jumbotron > * {
+  /*margin-left: 40px;*/
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #42a5f5;
+  background-size: auto 100%;
+  /*color: #f98c25;*/
+  /*background-image: url("http://images.summitpost.org/original/739664.jpg");*/
+  /*background-repeat: no-repeat;*/
+}
+
+.container {
+  /*margin-bottom: 30px;*/
+}
+
+.jumbotron:first-of-type {
+    /*padding-top: 0px;*/
+}
+
+.navbar-default .container-fluid{
+  background-color: #c7d2e2;
+
+}
+
+.navbar-default {
+  border-color: #c7d2e2;
+}
+
+.col-md-6 img {
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.col-md-4 img {
+  margin: 10px;
+}
+
+.langImg {
+  height: 150px;
+  width: 170px;
+  float: left;
+}
+
+.langBtn {
+  margin-left: 130px;
+  margin-top: 10px;
+  /*margin-bottom: 10px;*/
+
+}
+
+.navbar-right {
+  margin-right: 50px;
+}
+
+
+@media all and (min-width: 990px) {
+  .langBtn {
+    margin-bottom: 30px;
+  }
+}
+
+@media all and (max-width: 989px) {
+  .langBtn {
+    margin-bottom: 10px;
+  }
+}
+
+footer {
+  text-align: center;
+  /*border-top: 1px black solid;*/
+  padding: 20px;
+  background-color: #42a5f5;
+}
+
+.social_icons {
+  font-size: 1.8em;
+  /*color: white;*/
+}
+
+.social_icons > a {
+  color: white;
+}
+
+.centerz {
+  text-align: center;
+}
